@@ -1,11 +1,12 @@
 import React from 'react';
+import '../hojas-de-estilo/Testimonio.css';
 
 export function Testimonio() {
   return (
     <div className = 'contenedor-testimonio'>
       <img 
         className = 'imagen-testimonio'
-        src = {require('../imagenes/cara-1.jpg')}
+        src = {require('../imagenes/perfil3.png')}
         alt = 'foto-perfil-1'
       />
       <div className='contenedor-texto-testimonio'>
